@@ -1,0 +1,22 @@
+[project]
+name = "comfyui-audiobridge"
+version = "1.0.0"
+description = "Bridges ComfyUI's native AUDIO type to raw audio tensors (VCAUDIOTENSOR) for MuseTalk, VoiceCraft, and more."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Ryan Holanda", email = ""},
+]
+keywords = ["comfyui", "audio", "musetalk", "whisper", "tts"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio",
+]
+
+[project.urls]
+Homepage = "https://github.com/RyanHolanda/ComfyUI-AudioBridge"
+Repository = "https://github.com/RyanHolanda/ComfyUI-AudioBridge"
+Issues = "https://github.com/RyanHolanda/ComfyUI-AudioBridge/issues"
